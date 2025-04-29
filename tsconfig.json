@@ -37,7 +37,8 @@
   },
   "include": [
     "app/javascript/**/*.ts",                 // Adjust these paths based on your project structure
-    "app/javascript/**/*.tsx"
+    "app/javascript/**/*.tsx",
+    "app/javascript/**/*.d.ts"
   ],
   "exclude": [
     "node_modules",

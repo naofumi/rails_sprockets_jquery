@@ -10,6 +10,14 @@
       <button data-js="switch-background">
         Click to switch the background color
       </button>
+      <button data-js="tooltip" data-tooltip="Hello world!">
+        Hover to see tooltip
+      </button>
+      <script>
+        $(document).ready(function () {
+          $("[data-js='tooltip']").tooltip()
+        })
+      </script>
     </div>
   </div>
 
@@ -22,6 +30,14 @@
       <button data-js="switch-background-es">
         Click to switch the background color
       </button>
+      <button data-js="tooltip-es" data-tooltip="Hello world! ES module">
+        Hover to see tooltip
+      </button>
+      <script>
+        $(document).ready(function () {
+          $("[data-js='tooltip-es']").tooltipEs()
+        })
+      </script>
     </div>
   </div>
 </main>

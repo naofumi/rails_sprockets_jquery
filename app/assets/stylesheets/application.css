@@ -56,3 +56,13 @@ button {
 .mt-8 {
   margin-top: 32px;
 }
+
+.tooltip__window {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+

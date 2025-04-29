@@ -1,5 +1,9 @@
-$(function () {
-  const greetingsBox = $("[data-js='greetings']");
+;$(function () {
+  "use strict";
 
-  greetingsBox.html("Merry Christmas!");
+  const root = $("[data-js='greetings']");
+
+  root.on('click', function() {
+    alert("Hello, world!")
+  });
 });

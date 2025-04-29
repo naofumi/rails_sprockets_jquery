@@ -6,6 +6,25 @@
 
 body {
   font-family: var(--font-family);
-  background-color: var(--primary-color);
   color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: pink;
+}
+
+.bg-blue {
+  background-color: lightblue;
+}
+
+.bg-green {
+  background-color: lightgreen;
+}
+
+.bg-yellow {
+  background-color: lightgoldenrodyellow;
 }

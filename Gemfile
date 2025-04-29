@@ -59,3 +59,5 @@ group :test do
 end
 
 gem "sprockets-rails", "~> 3.5", require: 'sprockets/railtie'
+
+gem "jsbundling-rails", "~> 1.3"
